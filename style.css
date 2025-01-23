@@ -1,0 +1,9 @@
+header{
+    position: fixed; 
+    /* keeps header fixed while I scroll */
+    top: 0;
+    /* puts the header at top of the page */
+    width: 100%;
+    /* makes sure the header reaches the entire with of the page */
+}
+
