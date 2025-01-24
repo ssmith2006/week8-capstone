@@ -1,9 +1,43 @@
-header{
-    position: fixed; 
-    /* keeps header fixed while I scroll */
-    top: 0;
-    /* puts the header at top of the page */
-    width: 100%;
-    /* makes sure the header reaches the entire with of the page */
+header {
+  position: fixed;
+  /* keeps header fixed while I scroll */
+  top: 0;
+  /* puts the header at top of the page */
+  width: 100%;
+  /* makes sure the header reaches the entire with of the page */
+}
+/* # is unique to one element */
+#home {
+  margin-top: 50px;
 }
 
+#about {
+  margin-top: 100px;
+}
+
+#about .col-6 {
+  height: 500px;
+  width: 500px;
+}
+
+#about #my-list {
+  font-weight: bold;
+}
+
+#contact {
+  margin-top: 200px;
+  background-color: black;
+}
+
+#contact h2 {
+  color: white;
+}
+#contact .form-label {
+  color: white;
+}
+/* . are specific to class selectors and be reused on more than one element. Finally understand CSS. */
+
+footer{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: black !important;
+    /* The background color would not change and I couldn't figure out why.  I researched and found that !important forces the style.*/
+    color: white !important;
+}
+
+header {
+  position: fixed;
+  /* keeps header fixed while I scroll */
+  top: 0;
+  /* puts the header at top of the page */
+  width: 100%;
+  /* makes sure the header reaches the entire with of the page */
+  z-index: 1000;
+  /* added this because the content on the portfolio page kept overlapping the header. */
+}
+
+#top {
+    margin-top: 150px;
+    font-family: Impact, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+}
+
+#my-top-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+}
