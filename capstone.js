@@ -10,4 +10,7 @@ loves.forEach((love) => {
   ul.appendChild(li);
 });
 
-
+let submitButton = document.getElementById("submitButton"); //This button is located on the index page.
+submitButton.addEventListener("click", function () {
+  alert("I got it!");
+});

@@ -18,7 +18,4 @@ contactButton3.addEventListener("click", function () {
   alert("Ready to Talk!");
 });
 
-let submitButton = document.getElementById("submitButton"); //This button is located on the index page.
-submitButton.addEventListener("click", function () {
-  alert("I got it!");
-});
+
